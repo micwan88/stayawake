@@ -1,0 +1,15 @@
+[project]
+name = "stay_awake"
+version = "0.1.0"
+description = "A tool keep your computer awake"
+readme = "README.md"
+authors = [{ name = "Michael Wan", email = "hkmicmic@gmail.com" }]
+license = { file = "LICENSE" }
+requires-python = ">=3.12"
+
+dependencies = [
+    "pyautogui"
+]
+
+[project.urls]
+Homepage = "https://github.com/micwan88/stayawake"
